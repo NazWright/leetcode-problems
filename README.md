@@ -6,7 +6,7 @@ Hi everyone, this is a working repo of all of my completed leetcode problems.
 
 ## Language Directories
 
-The root of the repo consist of directories organized by the programming language used for leetcode solutions.
+The "solutions" root directory there consists of directories organized by the programming language used for leetcode solutions.
   For example, problems for java will be labeled: "java-problems"", python - "python-problems" etc. These are the language directories.
 
 ## Difficulty Directories
