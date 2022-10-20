@@ -5,8 +5,6 @@ class RomanToIntSolution {
 
   Map<Character, Integer> romanNumeralsMap;
 
-  public RomanToIntSolution() {}
-
   public int romanToInt(String s) {
     int sum = 0;
     romanNumeralsMap = new HashMap<>();
