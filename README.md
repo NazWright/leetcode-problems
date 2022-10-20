@@ -19,5 +19,5 @@ One goal for creating this repository is to dilligently track efforts to improve
 
   ## Finding Pseucode within the project
   
-   Git comes in handy for this project because of commits. Each solution file will start with initial commits of psuedocode and gradually move to the completed implementation of the course of a series of commits. All you need to do is check the version history of the file in question.
+   Git comes in handy for this project because of commits. Each solution file will start with initial commits of psuedocode and gradually move to the completed implementation over the course of a series of commits. All you need to do is check the version history of the file in question.
   
