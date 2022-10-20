@@ -39,6 +39,7 @@ class RomanToIntSolution {
 
     int valueOfRomanNumeralI = romanNumeralUtils.romanToInt("I");
 
+    assert valueOfRomanNumeralI == 1;
     System.out.println(valueOfRomanNumeralI);
   }
 }
