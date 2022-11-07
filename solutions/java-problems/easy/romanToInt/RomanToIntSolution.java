@@ -3,12 +3,11 @@ import java.util.Map;
 
 class RomanToIntSolution {
 
-  Map<Character, Integer> romanNumeralsMap;
+  final Map<Character, Integer> romanNumeralsMap = createRomanNums();
 
   public int romanToInt(String s) {
     int sum = 0;
-    romanNumeralsMap = new HashMap<>();
-    addRomanNums(romanNumeralsMap);
+    /* TODO: This solution only works with the roman numeral I, update this so that it will work for all numbers. */
     for (int i = 0; i < s.length(); ++i) {
       sum += getIntegerValueOfRomanNumeral(s.charAt(i));
     }
@@ -24,7 +23,8 @@ class RomanToIntSolution {
     return 0;
   }
 
-  private void addRomanNums(Map<Character, Integer> romanNumerals) {
+  private Map<Character, Integer> createRomanNums() {
+    Map<Character, Integer> romanNumerals = new HashMap<>();
     romanNumerals.put('I', 1);
     romanNumerals.put('V', 5);
     romanNumerals.put('X', 10);
@@ -32,6 +32,7 @@ class RomanToIntSolution {
     romanNumerals.put('C', 100);
     romanNumerals.put('D', 500);
     romanNumerals.put('M', 1000);
+    return romanNumerals;
   }
 
   public static void main(String[] args) {
